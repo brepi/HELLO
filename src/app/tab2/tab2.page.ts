@@ -8,5 +8,11 @@ import { Component } from '@angular/core';
 export class Tab2Page {
 
   constructor() {}
-
+  songList=[{"Title":"Lean on me"},
+  {"Title":"ALright"},
+  {"Title":"Big Egos"},
+  {"Title":"That Thing"}]
+  addSongs(){
+    this.songList.push({"Title":"new song"});
+  }
 }
